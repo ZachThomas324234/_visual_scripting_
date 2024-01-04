@@ -1,0 +1,477 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/539123/_visual_scripting_
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54432
+Successfully changed project path to: C:/Users/539123/_visual_scripting_
+C:/Users/539123/_visual_scripting_
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 124.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1 (7321c9670bc2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/539123/_visual_scripting_/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014796 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 121.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1201ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+				TypeCache.Initialize (331ms)
+					TypeCache.ScanAssembly (329ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 133.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\539123\_visual_scripting_\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.091 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2092ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1830ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+				TypeCache.Initialize (256ms)
+					TypeCache.ScanAssembly (250ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1315ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (922ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (420.7 KB). Loaded Objects now: 6215.
+Memory consumption went from 0.89 GB to 0.89 GB.
+Total: 13.070100 ms (FindLiveObjects: 0.524600 ms CreateObjectMapping: 0.165900 ms MarkObjects: 12.167400 ms  DeleteObjects: 0.211000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102956.738414 seconds.
+  path: Assets/Unity.VisualScripting.Generated
+  artifactKey: Guid(d667709d1abcebc44a5adfac7b714f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity.VisualScripting.Generated using Guid(d667709d1abcebc44a5adfac7b714f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0c5ad451f01617dbeca0ff08172884') in 0.020578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.297929 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/3DSkyboxPipeline.asset
+  artifactKey: Guid(0eb332b17110d4c8788731961c962d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/3DSkyboxPipeline.asset using Guid(0eb332b17110d4c8788731961c962d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530d5c36fcbf4246923b9b4d95999fa0') in 0.072790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Emission.png
+  artifactKey: Guid(cf0d2fe215a8b47b0bccff3401e2e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Emission.png using Guid(cf0d2fe215a8b47b0bccff3401e2e62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309f809c5d078180e6256be8d3c40c8c') in 0.059591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Metallic.png
+  artifactKey: Guid(99788167ab72747b18d1af46e93de3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Metallic.png using Guid(99788167ab72747b18d1af46e93de3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2322def2860baf5237901138619d607b') in 0.035082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/LightingData.asset
+  artifactKey: Guid(f2231d3127f464d509bddaf4c16b7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect/LightingData.asset using Guid(f2231d3127f464d509bddaf4c16b7a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9441eef941293a1332e7d652eb75b88') in 0.015216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Height.png
+  artifactKey: Guid(dea05996c7d584501989f6093ea6a978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Height.png using Guid(dea05996c7d584501989f6093ea6a978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbda914e2416b887111b38c4132ebda') in 0.022154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Lit/LightingData.asset
+  artifactKey: Guid(7632e9382edaf42eea71fffda301b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Lit/LightingData.asset using Guid(7632e9382edaf42eea71fffda301b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e20a5b16dde7cea7976f2cc01c40d9d') in 0.002834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/LightingData.asset
+  artifactKey: Guid(13289af5aaca14a8eb4484dd615de3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/LightingData.asset using Guid(13289af5aaca14a8eb4484dd615de3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0039354a150384b002d7c4f03f3e2fa1') in 0.003431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingData.asset
+  artifactKey: Guid(76fba1e8cc580406ba338f6526881281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingData.asset using Guid(76fba1e8cc580406ba338f6526881281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '91b22aee3ab532836ae06f8754272f5c') in 0.003423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Prefabs/MainPanel.prefab
+  artifactKey: Guid(d5fa55a16b49d4da3a93a4958cdc3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Prefabs/MainPanel.prefab using Guid(d5fa55a16b49d4da3a93a4958cdc3180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfae843eb8be2c668d0d414db2458ef') in 0.027490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/SunFlare/LightingData.asset
+  artifactKey: Guid(051cd0fb4954944d58ff036bd15b84d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/SunFlare/LightingData.asset using Guid(051cd0fb4954944d58ff036bd15b84d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2bb6f3e93c9c9f2d6460c76ddf0c32') in 0.002956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Normal.png
+  artifactKey: Guid(024ea8a6f555f4b25916e47645944851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Textures/Coins_Normal.png using Guid(024ea8a6f555f4b25916e47645944851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db4f88a6453df9b1a7494b7013ea332') in 0.047170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset
+  artifactKey: Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline.asset using Guid(0a7ae209480c14781aefacacff8f61ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30c08aceb78bc5cbd9f6eb66f0af983') in 0.020209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/Textures/Ring.png
+  artifactKey: Guid(9a7c7749fe7e54cb8824cba351ceffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/Textures/Ring.png using Guid(9a7c7749fe7e54cb8824cba351ceffe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7a341ca3c97faa5cd8a18b54a5e3df') in 0.018178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Shaders/URPMainLight_Graph.shadersubgraph
+  artifactKey: Guid(d2bd6acdfd61c443ebab517aa89164fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Shaders/URPMainLight_Graph.shadersubgraph using Guid(d2bd6acdfd61c443ebab517aa89164fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfe08ed1d7e9697bc9d72d6b4487b0c') in 0.011638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Materials/HighBuilding.mat
+  artifactKey: Guid(da0cf493aeabf402d984cd60dba953c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Materials/HighBuilding.mat using Guid(da0cf493aeabf402d984cd60dba953c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998b7cb18d896bd5e293cd03992c3d64') in 0.353222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.201972 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Materials
+  artifactKey: Guid(8bba87808bb4c407cbb9aebc3322a6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Materials using Guid(8bba87808bb4c407cbb9aebc3322a6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be366e6be8f30db8c046cee87a5b30c') in 0.003117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081254 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 1.mat
+  artifactKey: Guid(a5cb8f46ef6d74dad945d8966c0de9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 1.mat using Guid(a5cb8f46ef6d74dad945d8966c0de9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4972e6564b9d189ea0bc28edd85a852e') in 0.176174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.415420 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/BaseRenderer.asset
+  artifactKey: Guid(07b57d7fb16b544d58834c4108deabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/BaseRenderer.asset using Guid(07b57d7fb16b544d58834c4108deabbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a80b84a7b1d65927ca73f1438dcb214') in 0.012950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.050858 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Prefabs
+  artifactKey: Guid(53bf963bd056941bfaddc5e624474322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/3D Skybox/Prefabs using Guid(53bf963bd056941bfaddc5e624474322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebf5ffdf377b50a79bd19951cdac441') in 0.024042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.931214 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Decals/ProxyLighting/Materials
+  artifactKey: Guid(afc65afe370a242b287ec9af4c92479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Decals/ProxyLighting/Materials using Guid(afc65afe370a242b287ec9af4c92479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c01100816da92181376ef4365493197') in 0.003020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837071 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials
+  artifactKey: Guid(dd62148f17f4d42f489be1291f558f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials using Guid(dd62148f17f4d42f489be1291f558f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75459c4438bcfc2856f37d7e2c43c0ac') in 0.002947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.378589 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Materials
+  artifactKey: Guid(e9ab8eff9b74941c99f1937802b5c34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Materials using Guid(e9ab8eff9b74941c99f1937802b5c34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026ff73694345446d4275083b80bbcf1') in 0.002924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.827916 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/BaseMap.mat
+  artifactKey: Guid(81a7b3fb99e984cb0a7a85e94d32a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/BaseMap.mat using Guid(81a7b3fb99e984cb0a7a85e94d32a98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941fbba5d0bc72d9444f4ed6e9357cf9') in 0.026129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/Lightmap-0_comp_dir.png
+  artifactKey: Guid(28f6ba1ce45c649e2b7b6a18a6bb2e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/CameraStacking/MixedFOV/MixedFOV/Lightmap-0_comp_dir.png using Guid(28f6ba1ce45c649e2b7b6a18a6bb2e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f39b9761ac508e15f6d48365ed447d') in 0.018054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/MetallicMap.mat
+  artifactKey: Guid(bfe840013b1e840cdbc00d83632179e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/MetallicMap.mat using Guid(bfe840013b1e840cdbc00d83632179e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55691a634b97b579e89bd078fa0f0b33') in 0.023491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/LensFlarePresets/Smartphone_Smudged.asset
+  artifactKey: Guid(f5beaa492ae7e4714a75995a313ba38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/LensFlares/LensFlarePresets/Smartphone_Smudged.asset using Guid(f5beaa492ae7e4714a75995a313ba38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2059378af4fd5ac4494d6d28aa9e2d1') in 0.025204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/TrailEffect/TrailMap.renderTexture
+  artifactKey: Guid(6c3c030f2030b42eaa8b623e4af1e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/TrailEffect/TrailMap.renderTexture using Guid(6c3c030f2030b42eaa8b623e4af1e7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ff31021b0ac56f63e14cd7a92a520c') in 0.040197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/WithNormalMap.mat
+  artifactKey: Guid(ba4db6da9324f499ab79a4b3c8e476d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/WithNormalMap.mat using Guid(ba4db6da9324f499ab79a4b3c8e476d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce33ec3991e4e6ddcaabf1cd4bf78d53') in 0.023273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat
+  artifactKey: Guid(92b3aa099ecb9483381c91aba9894aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat using Guid(92b3aa099ecb9483381c91aba9894aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f133ac40f23cd367bbcff043fd18b86e') in 0.020015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.548028 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/KeepFrame/AdditiveParticle.mat
+  artifactKey: Guid(03914eb13719643a599c8910013509a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/KeepFrame/AdditiveParticle.mat using Guid(03914eb13719643a599c8910013509a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b708f3f02ec1e7e788811542db5d161f') in 0.159808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat
+  artifactKey: Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-blue.mat using Guid(28638862ea1084726a3511cd325fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6428d4b8aa2af2073bc355ba25c07cce') in 0.044899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60354a5e06ef427227a82c075a751178') in 0.070605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/WithOcclusion.mat
+  artifactKey: Guid(615945db2db8246c39b806c45ece2fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/WithOcclusion.mat using Guid(615945db2db8246c39b806c45ece2fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdbe4b38dfee65ec34cba798478970e') in 0.020466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b4c79d6cff16effab162c7bd9bbc7d') in 0.021700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Materials/Red.mat
+  artifactKey: Guid(fcba3054000df4bcb81bc8f46158ead1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Materials/Red.mat using Guid(fcba3054000df4bcb81bc8f46158ead1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0dc19ea1e324cd3e297ecc7bcf310b') in 0.020855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91b2bf3b8593a61e8ce0df87014cc35') in 0.134645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat
+  artifactKey: Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/root-green.mat using Guid(bc6da4580f5514e458fe5def87e138be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20005bf4498dafcd4d07747db350b11a') in 0.027242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame.mat
+  artifactKey: Guid(b02405f3a8b6143a8bf2013c469300cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame.mat using Guid(b02405f3a8b6143a8bf2013c469300cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abc7d614732f6f199f4a230925d8f7c') in 0.220393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4ad79c4e4e92a25e8f5bce354a3627') in 0.439362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/MetallicSmoothnessZero.mat
+  artifactKey: Guid(7e1dd3465110745d9820dc9c8a97152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Shaders/Lit/Materials/MetallicSmoothnessZero.mat using Guid(7e1dd3465110745d9820dc9c8a97152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106a5fd49d3c09434dac1fadfe9733b9') in 0.022803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/Decals/ProxyLighting/Materials/Spotlight.mat
+  artifactKey: Guid(24ad359a3a8084d74b56692a82a2ac12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/Decals/ProxyLighting/Materials/Spotlight.mat using Guid(24ad359a3a8084d74b56692a82a2ac12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2b9949ad71f6d1abd41e3d26b84e96') in 0.026195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96732e8ecc7d346a298ef3f3c938b71') in 0.069521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5029fcab745322db38d1e5915aeda43e') in 0.021814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Materials/White.mat
+  artifactKey: Guid(ec1179175ec9b4c0c8faa41f6ee73a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Universal RP/13.1.8/URP Package Samples/SharedAssets/Materials/White.mat using Guid(ec1179175ec9b4c0c8faa41f6ee73a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b673a4bf06ab3c62760819d945f90855') in 0.023252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph
+  artifactKey: Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurface.shadergraph using Guid(3739e562a03fc0b4982d8aa66cc50865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b90c370780b577613738d6bb3fb2a1') in 0.421105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat
+  artifactKey: Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Decal.mat using Guid(31d0dcc6f2dd4e4408d18036a2c93862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaecc6a0930cb351c6d82b9c69d963bb') in 0.013705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b3e94e5c5c397494e21c336dfe4352') in 0.020333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
+  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbafb906f3bdf6b485799102b6f96bb') in 0.442909 seconds 
